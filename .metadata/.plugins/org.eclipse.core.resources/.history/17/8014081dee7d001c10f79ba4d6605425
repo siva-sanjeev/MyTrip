@@ -1,0 +1,5 @@
+url = 
+browser = chrome
+dbpassword=password
+database=localhost
+dbuser=user

@@ -1,0 +1,18 @@
+Feature: check whether user able to select the 'TripType' and nextday
+
+@validRun
+  Scenario: Verify whether user able to select 'Trip Type'
+    Given User is on the page where all the flight details gets displayed
+    When User clicks on 'TripType
+    And Select 'TripType'
+    Then User should get flight details according to the selected "TripType'
+    
+    
+ Scenario: Verify whether user able to select 'Trip Type'
+    Given User is on the page where all the flight details gets displayed
+    When User clicks on 'TripType
+    And Select 'TripType'
+    Then User should get flight details according to the selected "TripType'
+			
+			
+			

@@ -1,0 +1,100 @@
+!SESSION 2022-01-31 19:49:36.293 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+This is a continuation of log file C:\Eclipse\.metadata\.bak_0.log
+Created Time: 2022-01-31 19:49:47.378
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-31 19:49:47.378
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-31 19:49:47.381
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-31 19:49:47.382
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-31 19:49:47.383
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.qdVDtuHR => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-31 19:49:47.385
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-31 19:49:47.395
+!MESSAGE classpath=150 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-31 19:49:47.400
+!MESSAGE buffering callback sts4.classpath.qdVDtuHR CucumberJavaPractise false 150
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-31 19:49:47.401
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-31 19:49:47.409
+!MESSAGE classpath=131 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-31 19:49:47.414
+!MESSAGE buffering callback sts4.classpath.qdVDtuHR MavenProject1 false 131
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-31 19:49:47.414
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-31 19:49:47.419
+!MESSAGE classpath=76 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-31 19:49:47.423
+!MESSAGE buffering callback sts4.classpath.qdVDtuHR demo false 76
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-31 19:49:47.423
+!MESSAGE executing callback sts4.classpath.qdVDtuHR 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-31 19:49:47.781
+!MESSAGE executing callback sts4.classpath.qdVDtuHR SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2022-01-31 19:50:12.499
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.equinox.security 1 0 2022-01-31 19:52:41.960
+!MESSAGE New keyring password generated. 
+
+!ENTRY org.eclipse.egit.core 4 0 2022-01-31 19:53:05.825
+!MESSAGE An exception occurred during push on URI https://github.com/siva-sanjeev/MyTrip.git: https://github.com/siva-sanjeev/MyTrip.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/siva-sanjeev/MyTrip.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1384)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:210)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.egit.core 4 0 2022-02-01 12:53:25.778
+!MESSAGE An exception occurred during push on URI https://github.com/siva-sanjeev/MyTrip.git: https://github.com/siva-sanjeev/MyTrip.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/siva-sanjeev/MyTrip.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1384)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:210)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.egit.core 4 0 2022-02-01 15:59:40.868
+!MESSAGE An exception occurred during push on URI https://github.com/siva-sanjeev/MyTrip.git: https://github.com/siva-sanjeev/MyTrip.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/siva-sanjeev/MyTrip.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1384)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:210)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)

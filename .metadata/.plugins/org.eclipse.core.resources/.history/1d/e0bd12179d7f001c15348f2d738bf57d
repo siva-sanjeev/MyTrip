@@ -1,0 +1,19 @@
+package Pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class flightListPage {
+	
+	WebDriver driver;
+
+	public flightListPage(WebDriver driver) {
+		super();
+		this.driver = driver;
+	}
+	
+	
+	By tripTypeDropdown = By.xpath("//div[@class='selectDropdown make_relative']");
+
+
+}

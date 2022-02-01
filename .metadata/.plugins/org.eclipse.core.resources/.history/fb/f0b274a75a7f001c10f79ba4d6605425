@@ -1,0 +1,13 @@
+Feature: check whether user able to select the 'TripType'
+
+@validRun
+  Scenario Outline: Verify the selected location
+    Given User is on the page where all the flight details gets displayed
+    When User 
+    And User clicks Search button
+    Then User should get list of flight details
+    
+    Examples:
+			| from    | To       	|
+			| Chennai | Bengaluru |
+			#| Delhi   | Chennai   |

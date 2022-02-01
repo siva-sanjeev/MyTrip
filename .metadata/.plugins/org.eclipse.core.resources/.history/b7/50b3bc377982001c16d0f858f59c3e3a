@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: RunnerFile.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.232 s <<< FAILURE! - in RunnerFile.TestRunner
+initializationError(RunnerFile.TestRunner)  Time elapsed: 0.009 s  <<< ERROR!
+io.cucumber.core.gherkin.FeatureParserException: 
+Failed to parse resource at: file:///C:/Eclipse/CucumberJavaPractise/src/test/resources/Features/hooksNotes.feature
+(3:1): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got '// Hooks'
+(5:1): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Scenario hooks -> which runs before and After Hooks'
+(6:1): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Step Hooks --> runs before and after each Steps'
+(7:1): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got 'Conditional Hooks --> Hooks associated with tags for conditional execution.'
+(11:10): A tag may not contain whitespace
+(11:1): expected: #EOF, #Language, #TagLine, #FeatureLine, #Comment, #Empty, got '@Before, @After --> runs before and after every scenario'
+(14:1): A tag may not contain whitespace
+(14:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got '@Before(order=1)  -> for before the order works in ascending order'
+(18:1): A tag may not contain whitespace
+(18:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got '@After(order=2) --> It works in descending order.... number2 will get executed first and number 1 gets executed second'
+(23:16): A tag may not contain whitespace
+

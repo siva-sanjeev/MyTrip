@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="5.687">
+<testcase classname="check whether user able to select the 'TripType' and nextday" name="Verify whether user able to select 'Trip Type'" time="3.267">
+<system-out><![CDATA[Given User is on the page where all the flight details gets displayed.......passed
+When User clicks on TripType................................................passed
+And Select TripType with data in excel at "C:\Eclipse\CucumberJavaPractise\src\test\java\ExcellFiles\makeMyTrip_datas.xlsx".passed
+Then User should get flight details according to the selected "TripType'....passed
+]]></system-out>
+</testcase>
+<testcase classname="check whether user able to select the 'TripType' and nextday" name="Verify whether user able to select next date from Current" time="2.269">
+<system-out><![CDATA[Given User is on the page where all the flight details gets displayed based on tripType selected.passed
+When User clicks on nextDate................................................passed
+Then the flight details for the corresponding date should display...........passed
+]]></system-out>
+</testcase>
+</testsuite>

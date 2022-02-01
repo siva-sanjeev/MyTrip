@@ -1,0 +1,14 @@
+package Pages;
+
+import org.openqa.selenium.WebDriver;
+
+public class flightListPage {
+	
+	WebDriver driver;
+
+	public flightListPage(WebDriver driver) {
+		super();
+		this.driver = driver;
+	}
+
+}

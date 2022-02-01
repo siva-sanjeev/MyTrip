@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CucumberJavaPractise/src/test/resources/Features/login.feature&apos; to &apos;login_withTags.feature&apos;" description="Rename resource &apos;login.feature&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/resources/Features/login.feature" name="login_withTags.feature" stamp="1642445230136" updateReferences="true"/>
+</session>

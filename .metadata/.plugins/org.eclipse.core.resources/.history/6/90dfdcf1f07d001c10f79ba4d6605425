@@ -1,0 +1,5 @@
+url = https://www.olx.in/en-in/electronics-appliances_c99/q-login
+browser = chrome
+dbpassword=password
+database=localhost
+dbuser=user
